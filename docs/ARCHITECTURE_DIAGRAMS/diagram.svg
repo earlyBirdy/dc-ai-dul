@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320">
+<rect x="20" y="40" width="180" height="80" fill="#cce5ff" stroke="#000"/>
+<text x="40" y="85" font-size="16">Sensors Layer</text>
+
+<rect x="260" y="40" width="200" height="80" fill="#d4edda" stroke="#000"/>
+<text x="280" y="85" font-size="16">Connectors Layer</text>
+
+<rect x="520" y="40" width="200" height="80" fill="#f8d7da" stroke="#000"/>
+<text x="535" y="85" font-size="16">ML Pipeline & DUL Model</text>
+
+<line x1="200" y1="80" x2="260" y2="80" stroke="#000"/>
+<line x1="460" y1="80" x2="520" y2="80" stroke="#000"/>
+
+</svg>
