@@ -83,3 +83,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# offline mode placeholder
+# future: load pretrained models if --offline flag used

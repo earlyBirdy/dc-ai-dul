@@ -1,0 +1,17 @@
+{
+  "title": "Fleet Overview",
+  "panels": [
+    {
+      "type": "heatmap",
+      "title": "DUL Distribution"
+    },
+    {
+      "type": "table",
+      "title": "Worst Components"
+    },
+    {
+      "type": "stat",
+      "title": "Risk Status"
+    }
+  ]
+}

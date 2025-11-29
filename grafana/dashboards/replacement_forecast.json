@@ -1,0 +1,13 @@
+{
+  "title": "Replacement Forecast",
+  "panels": [
+    {
+      "type": "calendar",
+      "title": "Replacement Dates"
+    },
+    {
+      "type": "table",
+      "title": "Parts Needed Soon"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.2.0-fixed",
+  "trained_on": "2025-02-01",
+  "model_types": [
+    "gbr",
+    "lstm"
+  ],
+  "note": "Placeholders only."
+}

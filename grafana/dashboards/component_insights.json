@@ -1,0 +1,13 @@
+{
+  "title": "Component Insights",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "DUL Trend"
+    },
+    {
+      "type": "timeseries",
+      "title": "Anomaly Trend"
+    }
+  ]
+}
