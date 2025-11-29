@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>dc-ai-dul Fleet Dashboard</title>
+  </head>
+  <body>
+    <h1>Depreciation Useful Life – Fleet Snapshot</h1>
+    <table border="1" cellpadding="6" cellspacing="0">
+      <tr>
+        <th>Asset ID</th>
+        <th>Average DUL (days)</th>
+        <th>Most Critical Component</th>
+      </tr>
+      {% for row in summary %}
+      <tr>
+        <td>{{ row.asset_id }}</td>
+        <td>{{ row.avg_dul }}</td>
+        <td>{{ row.worst_component }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>

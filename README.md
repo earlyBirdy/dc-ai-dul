@@ -1,10 +1,10 @@
-# dc-ai-dul v0.3  
+# dc-ai-dul v1.0  
 **AI/ML for Data Center Hardware Health & Depreciation Useful Life (DUL)**   
 Supports **OCP (Open Compute)** telemetry + **generic components**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-[![Status](https://img.shields.io/badge/Status-v0.3-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-v0.5-blue.svg)]()
 [![OCP Ready](https://img.shields.io/badge/OCP-Telemetry-green.svg)]()
 
 ---
@@ -79,3 +79,12 @@ python -m ai_dc_dul.cli.run_pipeline \
 ## 📝 License  
 
 MIT – see [LICENSE](LICENSE).
+
+
+v0.5 adds DCIM/BMS-style connectors (Prometheus, SNMP, Modbus-style stub) feeding the FastAPI service.
+
+
+v1.0 adds:
+- Full fleet planner
+- DB schema for assets/components/predictions
+- Replacement forecasting
